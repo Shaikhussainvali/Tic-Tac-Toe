@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ultra Edit Clone</title>
+    </head>
+    
+    <body>
+
+
+  
+       
+         
+              <style>
+         
+ 
+    
+* {
+     
+ padding: 0;
+ margin: 0;
+
+}
+
+
+
+
+.logo img {
+    width: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 30px
+}
+
+
+
+
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+}
+
+section span img {
+    width: 82px;
+    margin: 0 23px;
+}
+
+.first p {
+    
+    width: 630px;
+    text-align: center;
+    
+}
+
+
+
+.btn {
+    background: #00b6d1;
+    padding: 12px 14px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.small {
+    font-size : 0.8em;
+}
+.second {
+    max-width: 80vw;
+    margin: auto; 
+    
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+       
+  .download  img {
+     
+     podding: 0px 12px;
+      
+  }        
+          
+      .m-left {
+          margin-left: 15px;
+      }
+         
+         
+  .grid  {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      gap: 20px;
+      margin-top: 30px;
+      
+  }
+  .item {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+  }       
+     
+     .item-lang {
+         text-align: center;
+         margin-top: 40px;
+         line-height: 30px;
+         
+     }    
+         .green {
+             background-color: green;
+         }
+         
+         .buttons {
+             margin-top: 70px ;
+             text-align: center;
+         }
+         .marg {
+             margin-right: 10px;
+         }
+         
+         
+         
+         .third {
+             width: 100vw;
+             height : 1300px;
+             background-color: black;
+             color: white;
+             margin-top: 100px;
+         }
+         
+         
+         
+         
+         
+         .fourth {
+             margin-top :100px;
+         }
+         
+         
+         .header {
+             text-align: center;
+             
+             line-height: 45px;
+             
+             position: relative;
+             top: 100px;
+         }
+       
+         .form {
+             width : 40%;
+            height: 23%;
+             background-color: white;
+             margin: 150px auto;
+             border-radius: 10px;
+             text-align: center;
+             
+         }
+         
+         
+         .form h1 {
+             color : #00b6d1;
+             padding-top : 40px;
+         }
+         .form p {
+             color: black;
+             margin-top: 40px;
+         }
+         
+        input {
+            width : 60%;
+            margin: auto;
+            height: 60px;
+            border: 1px solid rgba(0,0,0,0.4);
+            margin-top: 10px;
+            
+        } 
+       
+       
+     #sign-up {
+         background-color : #00b6d1;
+         color: white;
+         font-size : 1.5em;
+         padding:10px;
+         border-radius: 4px;
+         border: none;
+     }  
+       
+       .box-content {
+           margin-left: 40px;
+           line-height: 40px;
+           
+       }
+       
+       .box-content a {
+           color : #00b6d1;
+           text-decoration: none;
+           
+       }
+       
+       .box-content p {
+           margin-top: 20px;
+       }
+       
+       
+       .box-content h1 {
+           font-size : 1.6em ;
+       }
+         
+      .buttons {
+          margin-bottom: 20px;
+          
+      }   
+         .french {
+             margin-top: 170px;
+         }
+         .english {
+             margin-top: 120px;
+         }
+         
+         .grid-2 {
+             display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 50px;
+       
+            
+         }
+         .fourth {
+             max-width: 80%;
+             margin: 200px auto 0 auto;
+         }
+         .grid-2 p {
+             font-size: 0.6em;
+             line-height: 30px;
+         }
+         .grid-2 h1 {
+             font-size: 0.7em;
+             font-weight: 700;
+             margin-bottom: 30px;
+         }
+         
+         .grid-2 .mail {
+             width: 300px;
+             border: 1px solid rgba(0,0,0,0.5);
+         }
+         .grid-2 .btn {
+             width: 300px;
+             
+         }
+         
+         
+         
+      .footer {
+         display: flex;
+         flex-direction: column;
+        
+        align-items: center;
+        justify-content: space-evenly;
+         
+         width: 100vw;
+         height: 200px;
+         padding-top: 0;
+      }   
+         
+         
+         .copy > p {
+             font-size : 0.8em;
+         }
+         
+        .footer img {
+            margin-left: 20px;
+        } 
+         
+      
+         
+       </style>
+
+
+
+
+ 
+
+<a
+
+
+
+           <nav>
+            <div class = "logo">
+          <img src = "  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbHUcKFKnqTLNHMfYUkJtaYtmLiyq28uZhzZrq9Vz1&s  ">
+          </div>
+          
+           <ul>
+               <li>Products</li>
+               <li>Pricing</li>
+               <li>Resources</li>
+               <li>About Us</li>
+               <li><i class="fa-solid fa-language"></i></li>
+               
+           </ul>
+               
+           </nav>
+           
+           
+           
+           
+           
+  
+  <main>
+        <section class="first">
+            <span> Download <b>UltraEdit</b> for Windows<img width="34"
+                    src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></span>
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the
+                text editor.</p>
+            <div>
+                <button class="btn">
+
+                    DOWNLOAD MAC OR LINUX VERSION
+                </button>
+            </div>
+
+
+        </section>
+  
+  
+  
+  
+  
+  
+  
+  <section class="second">
+            <div class="download">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2022/11/UE.png" >
+                
+                <div class = "m-left">
+                <span>Download UltraEdit </span>
+                </div>
+                <span class="small">v2023.1(released 08/16/2023) | Hotfix</span>
+                
+                
+                
+                
+            </div>
+            
+            
+            <div class = "grid">
+            <div class = "item">
+            <div class = "item-lang">
+            <p><b>English</b></p>
+            
+            </div>
+            
+            <div class = "buttons english">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+            
+            
+            
+            
+            
+            <div class = "item">
+            <div class = "item-lang">
+            <p><b>Deutsch
+</b></p>
+<p><i>German</i></p>
+            
+            </div>
+            
+            <div class = "buttons">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+          <div class = "item">
+            <div class = "item-lang">
+            <p><b>Italiano
+</b></p>
+<p><i>Italian</i></p>
+            
+            </div>
+            
+            <div class = "buttons">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+             
+            
+            
+            
+            
+            
+            
+            <div class = "item">
+            <div class = "item-lang">
+            <p><b>Español
+</b></p>
+<p><i>Spanish</i></p>
+            
+            </div>
+            
+            <div class = "buttons">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+            
+            
+            
+            
+            
+            
+            
+         <div class = "item">
+            <div class = "item-lang">
+            <p><b>français
+</b></p>
+<p><i>French</i></p>
+            
+            </div>
+            
+            <div class = "buttons french">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+              
+            
+            
+
+
+<div class = "item">
+            <div class = "item-lang">
+            <p><b>Português brasileiro
+</b></p>
+
+<p><i>Brazilian Portuguese</i></p>
+            
+            </div>
+            
+            <div class = "buttons">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+            
+
+
+
+
+
+<div class = "item">
+            <div class = "item-lang">
+            <p><b>日本
+</b></p>
+<p><i>Japanese</i></p>
+            
+            </div>
+            
+            <div class = "buttons">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+            
+
+
+
+<div class = "item">
+            <div class = "item-lang">
+            <p><b> 한국어
+</b></p>
+            <p><i>Korean</i></p>
+            
+            
+            </div>
+            
+            <div class = "buttons">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+            
+
+
+
+<div class = "item">
+            <div class = "item-lang">
+            <p><b>中国
+</b></p>
+<p><i>Chinese</i></p>
+            
+            </div>
+            
+            <div class = "buttons">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+            
+            
+            
+            
+            
+            
+          <div class = "item">
+            <div class = "item-lang">
+            <p><b>中國
+</b></p>
+
+<p><i>Traditional Chinese</i></p>
+            
+            </div>
+            
+            <div class = "buttons">
+            <button class = "btn blue   marg">Download 32-bit</button>
+    <button class = "btn green">Download 64-bit</button>
+            
+            </div>
+  
+            </div>
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+            
+            
+            </div>
+            
+            
+            </section>
+            
+            
+            
+            
+            
+            
+            
+            
+            <section class = "third">
+            <div class = "header">
+            <h1> Join the UltraEdit newsletter</h1>
+            <p>
+Sign up for our newsletter and receive emails for the latest news, blogs, and special deals on UltraEdit.</p>
+            </div>
+            
+            <div class = "form" >
+            
+            <h1>Subscribe to our emails
+</h1>
+            <p>Enter email address</p>
+            
+   
+ <form> 
+         <input type = "email" name = "email" placeholder = "Enter a Valid Email Adress" required>
+            
+            
+ <input type = "submit" value= "Sign Up" id = "sign-up">  
+ </form>
+ 
+   
+
+
+ 
+ 
+   
+            
+            </div>
+            
+            
+                 
+      
+           
+            
+            
+            <div class = "box-content">
+            <h1 > EXE or MSI?</h1>
+            <p>The EXE builds of our products are the preferred download for most of our users, running Windows 8.1 and later. </p>
+            <p>
+            We make MSI builds available for bulk or silent deployments (command line, GPO, SCCM, etc.). <a href = "#">
+            Get the UltraEdit MSI installer.</a>
+            
+            </p>
+            
+            <h1> Free trial period</h1>
+            
+            <p> This application comes with a free, fully functional 30 day trial period. After the trial period expires, you must <a href = "#" >purchase a license</a> to continue using it.</p>
+            
+            
+            
+            
+            </div>
+            
+            
+            </section>
+  
+  
+   
+        
+        
+      <section class = "fourth" >
+      <div class = "grid-2">
+      <div class = "one">
+    <h1>  What's your language?</h1>
+<p>Code editor (General)</p>
+<p>Text editor</p>
+<p>Hex/Binary</p>
+<p>HTML</p>
+<p>CSS</p>
+<p>Unix shell scripts</p>
+<p>PL/SQL</p>
+<p>EDI</p>
+<p>C++</p>
+<p>PHP</p>
+<p>XML</p>
+<p>Markdown</p>
+<p>SAS</p>
+<p>Visual Basic (VB)</p>
+
+</div>
+
+<div class = "two">
+
+<h1>What type of user are you?</h1>
+<p>Programmer / Developer</p>
+<p>Web Developer</p>
+<p>Database Manager</p>
+<p>System Administrator</p>
+<p>Technical Writer</p>
+<p>Editor / Publisher</p>
+<p>Medical / Pharmaceutical</p>
+
+</div>
+
+<div class = "three">
+<h1>General</h1>
+<p>Contact</p>
+<p>License Agreement (EULA)</p>
+<p>End of Life Policy</p>
+<p>Libraries and Patents</p>
+<p>Information Policy</p>
+<p>Privacy Policy</p>
+<p>Uninstall Instructions</p>
+<p>Sitemap</p>
+<p>Legal</p>
+</div>
+
+<div class = "four">
+<h1>Subscribe to Newsletter</h1>
+<p>Get the latest news on new releases, event, and developments.</p>
+<form >
+<input type = "email" name = "email" placeholder = "Enter email address…" class = "mail">
+
+
+
+<input type = "submit" class = "btn" value = "SUBSCRIBE"> 
+</form> 
+ </div>
+      </div>
+      </section>  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <section class = "footer">
+        
+        <div class = "foot-logo">
+                  <img src = "  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbHUcKFKnqTLNHMfYUkJtaYtmLiyq28uZhzZrq9Vz1&s  ">
+        
+        </div>
+        
+        
+      <div class = "social-media" >
+      <img src = " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62YcZkVmUr4XYta6QpUAJSP76w99oV5OGig&s" width = "50px">
+      <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiYyoZuaiIrBKygBUDqYOYy0IurIMFTvxt0A&s " width = "50px">
+      <img src = " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlsJ5PPVUIiee0_W10WknanGqDp_y3_Aurug&usqp=CAU" width = "50px">
+      <img src = " https://www.edigitalagency.com.au/wp-content/uploads/facebook-icon-black-circle-white-png.png" width = "50px" height= "50px">
+      
+      
+      <img src = " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT09uWs-DA8PT1bFbTDW3JJtwG6krJhu4IKV9hdU_4BNg&s" width = "50px">
+      
+      
+      
+      
+      <img src = " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRzPMR9ghDd16qcaPWm6WZBtBTyRdkHNonGQ&usqp=CAU" width = "50px">
+      <img src = " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0oZXkEXHyyp6dZBXrGu6vXizdo-HxlcuVag&usqp=CAU" width = "50px">
+      
+      
+      
+      
+      
+      </div>
+      
+      
+      <div class = "copy">
+      <p>&copy;2024 UltraEdit. All rights reserved</p>
+      </div>
+        
+        
+        
+        
+        
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="https://kit.fontawesome.com/3c7162bc9e.js" crossorigin="anonymous">
+        
+        alert("Welcome to my website");
+        
+        
+        </script>
+        
+    </body>
+</html>
+
+
+
+
+
